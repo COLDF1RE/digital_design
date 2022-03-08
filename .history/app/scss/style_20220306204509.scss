@@ -1,0 +1,43 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.wrapper {
+  
+}
+.header {
+}
+.container {
+}
+.logo {
+  &__img {}
+}
+.navbar {
+  &__list {}
+  &__item {}
+  &__link {}
+}
+.main {
+  &__content {
+    margin-bottom: 50px;
+  }
+  &__title {
+    color: aliceblue;
+    mar
+  }
+  &__img {}
+  &__subtitle {
+    color: aliceblue;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  &__text {
+    margin-bottom: 19px;
+  }
+  &__text-link {}
+  &__images {}
+}

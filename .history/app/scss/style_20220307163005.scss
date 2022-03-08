@@ -1,0 +1,70 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo {
+  &__img {}
+}
+
+
+
+.navbar {
+  &__list {
+    
+  }
+  &__item {
+    display: flex;
+    
+  }
+  &__link {}
+}
+.main {
+  &__content {
+    padding-bottom: 50px;
+  }
+  &__title {
+    color: aliceblue;
+    padding-top: 100px;
+    margin: 0px 0px 75px 3%;
+    
+  }
+  &__img {
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  &__text {
+    margin-bottom: 19px;
+  }
+  &__text-link {}
+}
+
+.footer__logo {
+  margin: 0 auto;
+}
+
+.btn {
+  text-align: center;
+  &__link {
+    background-color: #50fa7b;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,29 @@
+@media  (max-width: 850px) {
+  .navbar {
+    display: none;
+  }
+  .main__title{
+    padding-top: 50px;
+    margin: 0px 0px 55px 3%;
+  }
+  .main__img {
+    margin-bottom: 50px;
+  }
+  .main__content {
+    padding-bottom: 25px;
+  }
+  .header__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media  (max-width: 850px) {
+  .main__title{
+    font-size: 25px;
+  }
+  .main__subtitle {
+    font-size: 28px;
+  }
+}

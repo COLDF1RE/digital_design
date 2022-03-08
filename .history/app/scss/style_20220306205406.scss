@@ -1,0 +1,49 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.wrapper {
+  
+}
+.header {
+  padding: 15px 0;
+  box-shadow: 0 5px 10px 0;
+  
+}
+.container {
+}
+.logo {
+  &__img {}
+}
+.navbar {
+  &__list {}
+  &__item {}
+  &__link {}
+}
+.main {
+  &__content {
+    margin-bottom: 50px;
+  }
+  &__title {
+    color: aliceblue;
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+  &__img {
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    color: aliceblue;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  &__text {
+    margin-bottom: 19px;
+  }
+  &__text-link {}
+  &__images {}
+}

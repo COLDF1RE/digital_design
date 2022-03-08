@@ -1,0 +1,30 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.wrapper {
+  
+}
+.header {
+}
+.container {
+}
+.logo {
+  &__img {}
+}
+.navbar {
+  &__list {}
+  &__item {}
+  &__link {}
+}
+.main {
+  &__title {}
+  &__img {}
+  &__subtitle {}
+  &__text {}
+  &__text-link {}
+  &__images {}
+}

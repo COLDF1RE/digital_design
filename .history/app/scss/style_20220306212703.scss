@@ -1,0 +1,75 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+
+.container {
+}
+.logo {
+  &__img {}
+}
+.navbar {
+  &__list {}
+  &__item {}
+  &__link {}
+}
+.main {
+  &__content {
+    padding-bottom: 50px;
+  }
+  &__title {
+    color: aliceblue;
+    padding-top: 100px;
+    margin: 0px 0px 75px 3%;
+    
+  }
+  &__img {
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  &__text {
+    margin-bottom: 19px;
+  }
+  &__text-link {}
+  &__images {
+    height: 300px;
+  }
+}
+
+
+.d16 {
+  margin: 20px 0; 
+  width: 100px; 
+  height: 55px;
+  background: #F1CCAE;
+  position: relative;
+  background-image: url('https://quizizz.com/_media/quizzes/84ff577b-e5c7-483e-8c48-4ba55faf848f_900_900');
+  background-position: center;
+  
+  }
+  .d16:before, 
+  .d16:after {
+  content: "";
+  width: 0; 
+  height: 0;
+  position: absolute; 
+  left: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  }
+  .d16:before {
+  top: -25px;
+  border-bottom: 25px solid #F1CCAE;
+  }
+  .d16:after {
+  bottom: -25px;
+  border-top: 25px solid #F1CCAE;
+  }

@@ -1,0 +1,60 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+
+.container {
+}
+.logo {
+  &__img {}
+}
+.navbar {
+  &__list {}
+  &__item {}
+  &__link {}
+}
+.main {
+  &__content {
+    padding-bottom: 50px;
+  }
+  &__title {
+    color: aliceblue;
+    padding-top: 100px;
+    margin: 0px 0px 75px 3%;
+    
+  }
+  &__img {
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  &__text {
+    margin-bottom: 19px;
+  }
+  &__text-link {}
+  &__images {
+    height: 300px;
+  }
+}
+
+
+.d16 {
+  margin: 20px 0; 
+  width: 100%; 
+  height: 110px;
+  
+  position: relative;
+  background-image: url(../images/html.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.15);
+  }
+  

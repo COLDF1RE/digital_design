@@ -1,0 +1,78 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.logo {
+  &__img {
+    display: inline;
+  }
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    margin-left: 25px;
+  }
+  &__link {}
+}
+
+.menu {
+  &__list {}
+  &__item {}
+  &__link {}
+}
+
+
+
+
+
+
+.main {
+  &__content {
+    padding-bottom: 50px;
+  }
+  &__title {
+    color: aliceblue;
+    padding-top: 100px;
+    margin: 0px 0px 75px 3%;
+    
+  }
+  &__img {
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  &__text {
+    margin-bottom: 19px;
+  }
+  &__text-link {}
+}
+
+.main__btn {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer__inner{
+  text-align: center;
+}
+
+@import 'media';
